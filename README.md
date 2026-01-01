@@ -1,6 +1,15 @@
-# 🧞‍♂️ SHIKA-DevLog-Ginie
+<div align="center">
+
+# 🦌 SHIKA-DevLog-Ginie
+
+
+[![Live Demo](https://img.shields.io/badge/🦌_DEMO-Visit_Website-blue?style=for-the-badge&logo=vercel)](https://shika-dev-log-genie.vercel.app/)
+[![Built with AI](https://img.shields.io/badge/🤖_AI-Powered_by_Gemini-FFD700?style=for-the-badge&logo=google-gemini&logoColor=black)](https://deepmind.google/technologies/gemini/)
+
 
 > **Turning your raw code into professional, Notion-style technical blog posts in seconds.**
+
+</div>
 
 ---
 

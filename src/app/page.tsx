@@ -7,7 +7,7 @@ import { translations, Language } from "@/lib/translations"; // Import translati
 import MarkdownPreview from "@/components/MarkdownPreview";
 
 export default function Home() {
-  const [lang, setLang] = useState<Language>("ko"); // Language state
+  const [lang, setLang] = useState<Language>("en"); // Language state
   const t = translations[lang]; // Current translation shortcut
 
   const [apiKey, setApiKey] = useState("");
@@ -114,11 +114,28 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Settings Modal (Simplified) */}
+      {/* Settings Modal */}
       {showSettings && (
-        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50">
-          <div className="bg-white p-8 rounded-2xl w-full max-w-md">
-            <h3 className="flex items-center gap-2 mb-6 font-bold text-xl"><Key /> {t.settingsTitle}</h3>
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white p-8 rounded-2xl w-full max-w-md shadow-xl">
+            <h3 className="flex items-center gap-2 mb-6 font-bold text-xl">
+              <Key /> {t.settingsTitle}
+            </h3>
+            
+            <div className="bg-blue-50 p-4 rounded-lg mb-6 border border-blue-100 text-center">
+              <p className="text-sm text-blue-800 mb-2 font-medium">
+                 {t.apiKeyHelp}
+              </p>
+              <a 
+                href="https://aistudio.google.com/app/apikey" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-sm text-blue-600 underline hover:text-blue-800 font-semibold"
+              >
+                {t.apiKeyLink} ↗
+              </a>
+            </div>
+
             <input
               type="password"
               className="w-full p-3 border rounded-lg mb-6 outline-none focus:ring-2 focus:ring-blue-500"
@@ -126,9 +143,20 @@ export default function Home() {
               value={apiKey}
               onChange={(e) => setApiKey(e.target.value)}
             />
+            
             <div className="flex gap-2">
-              <button onClick={() => setShowSettings(false)} className="flex-1 py-3 border rounded-lg">{t.close}</button>
-              <button onClick={saveApiKey} className="flex-1 py-3 bg-blue-600 text-white rounded-lg">{t.save}</button>
+              <button 
+                onClick={() => setShowSettings(false)} 
+                className="flex-1 py-3 border rounded-lg hover:bg-slate-50 transition-colors"
+              >
+                {t.close}
+              </button>
+              <button 
+                onClick={saveApiKey} 
+                className="flex-1 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+              >
+                {t.save}
+              </button>
             </div>
           </div>
         </div>
