@@ -9,6 +9,17 @@
 
 > **Turning your raw code into professional, Notion-style technical blog posts in seconds.**
 
+<br>
+
+<a href="https://shika-dev-log-genie.vercel.app/">
+  <p align="center">
+    <img src="./public/assets/SHIKA_DevLog_SetUp.png" width="45%" alt="Setup Screen" style="border-radius: 10px; border: 1px solid #eaeaea;">
+    <img src="./public/assets/SHIKA_DevLog_Result.png" width="45%" alt="Result Screen" style="border-radius: 10px; border: 1px solid #eaeaea;">
+  </p>
+</a>
+
+*Left: Easy API Setup | Right: Beautifully Rendered Result*
+
 </div>
 
 ---
