@@ -9,18 +9,32 @@
 
 > **Turning your raw code into professional, Notion-style technical blog posts in seconds.**
 
-<br>
+</div>
+
+---
+
+<div align="center">
+
+### 1️⃣ Easy Setup
+Get your free API key and you are ready to go!
 
 <a href="https://shika-dev-log-genie.vercel.app/">
-  <p align="center">
-    <img src="./public/assets/SHIKA_DevLog_SetUp.png" width="45%" alt="Setup Screen" style="border-radius: 10px; border: 1px solid #eaeaea;">
-    <img src="./public/assets/SHIKA_DevLog_Result.png" width="45%" alt="Result Screen" style="border-radius: 10px; border: 1px solid #eaeaea;">
-  </p>
+  <img src="./public/assets/SHIKA_DevLog_SetUp.png" width="85%" alt="Setup Screen" style="border-radius: 10px; margin-bottom: 20px;">
 </a>
 
-*Left: Easy API Setup | Right: Beautifully Rendered Result*
+<br>
+<br>
+
+### 2️⃣ Professional Result
+AI analyzes your code and renders beautiful Markdown & LaTeX equations.
+
+<a href="https://shika-dev-log-genie.vercel.app/">
+  <img src="./public/assets/SHIKA_DevLog_Result.png" width="85%" alt="Result Screen" style="border-radius: 10px;">
+</a>
 
 </div>
+
+<br>
 
 ---
 
